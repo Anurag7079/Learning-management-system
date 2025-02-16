@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Learning-management-system/static/css/main.234bbc2d.css",
+    "main.js": "/Learning-management-system/static/js/main.31af7cbf.js",
+    "static/js/488.fa1866ae.chunk.js": "/Learning-management-system/static/js/488.fa1866ae.chunk.js",
+    "index.html": "/Learning-management-system/index.html",
+    "main.234bbc2d.css.map": "/Learning-management-system/static/css/main.234bbc2d.css.map",
+    "main.31af7cbf.js.map": "/Learning-management-system/static/js/main.31af7cbf.js.map",
+    "488.fa1866ae.chunk.js.map": "/Learning-management-system/static/js/488.fa1866ae.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.234bbc2d.css",
+    "static/js/main.31af7cbf.js"
+  ]
+}
