@@ -1,0 +1,28 @@
+.learning-container {
+  background-color: #b678df;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.back-button {
+  margin-bottom: 10px;
+  background: purple;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+
+  .module-card:hover {
+    background-color: #746885;
+  }
+}

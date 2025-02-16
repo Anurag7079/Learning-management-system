@@ -1,0 +1,83 @@
+.video-listing {
+    width: 94%;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    color: #f5f5f5;
+}
+
+
+.level-title {
+    text-align: left;
+    margin: 20px 0;
+}
+
+.level-title h2 {
+    margin: 5px 0;
+    color: black;
+}
+
+.steps-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.step-item {
+    display: flex;
+    align-items: center;
+    background: #f5f5f5;
+    padding: 15px;
+    border-radius: 8px;
+    justify-content: space-between;
+
+}
+
+.step-list:hover {
+    background: #2e2c2c;
+}
+
+.step-icon {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: purple;
+    color: white;
+    border-radius: 50%;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.step-content {
+    flex-grow: 1;
+    text-align: left;
+    padding: 0 10px;
+}
+
+.step-arrow {
+    font-size: 20px;
+    color: gray;
+}
+
+.back-button {
+    padding: 12px;
+    background: purple;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .video-listing {
+        width: 94%;
+    }
+
+    .module-card:hover {
+        background-color: #746885;
+    }
+}

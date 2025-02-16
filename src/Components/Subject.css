@@ -1,0 +1,93 @@
+.container {
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+    background-color: #6a0dad;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.course-info {
+    background-color: #a69cb1;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.course-info button {
+    background-color: #4a0ba1;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 95%;
+}
+
+.course-info button:hover {
+    background-color: #3a0b91;
+}
+
+.modules {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.module-card {
+    display: flex;
+    align-items: center;
+    background-color: #5a0cae;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.module-card:hover {
+    background-color: #746885;
+}
+
+.module-number {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    color: #6a0dad;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.subject-image {
+    height: 100px;
+    width: 100px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    .module-card {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .module-number {
+        margin-bottom: 10px;
+    }
+
+    .module-card:hover {
+        background-color: #746885;
+    }
+}
